@@ -1,4 +1,4 @@
-const stripe = require('stripe')('sk_test_51SaMu7JwtYqfT3EpJ4NIzI0pb82K0A3jyfnlGomF2zh5eVujR2Siwde07Y42rYmCPwphCUDfmbT1o2FnsHEGgZKU00sTM87Y2P'); // Replace with your actual Stripe secret key from dashboard
+const stripe = require('stripe')(''); // Replace with your actual Stripe secret key from dashboard
 const express = require('express');
 const path = require('path');
 
@@ -112,3 +112,4 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
